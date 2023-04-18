@@ -1,7 +1,10 @@
-const arrayNumbers=[5,49,172,16]
+const arrayNumbers=[2,5,49,172,16]
 
 //Metodo que borrar el primer elemento
 
-arrayNumbers.shift()
+const DeleteFirstNumber = (arraytodelete)=> {
+    arraytodelete.shift();
+    return arraytodelete;
+}
 
-console.log("Array after to eliminate the first element: ",arrayNumbers)
+console.log("Array after to eliminate the first element: ",DeleteFirstNumber(arrayNumbers))
