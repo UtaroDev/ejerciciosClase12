@@ -1,4 +1,4 @@
-const findUniq = [1,1,1,1,1,1,1,3];
+const findUniq = [1,1,1,1,2,1,1,1];
 
 //Funcion que devuelve el numero distinto de un array con todos numeros iguales menos uno
 
@@ -9,7 +9,6 @@ const findImpostor = (array)=> {
       const result = (arrayValue != array[index-1]) && (arrayValue != array[index+1])
         
             return result;
-    
     })
 
     return findDistinc;

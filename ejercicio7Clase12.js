@@ -1,4 +1,4 @@
-adjacentElementsProduct = [9,5,10,26,24,-1];
+adjacentElementsProduct = [9,5,10,26,-24,-1];
 // 5 * 10 = 50
 
 const funcUpperProduct = (array) => {
